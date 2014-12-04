@@ -1,0 +1,4 @@
+<h1>Home Page!!!</h1>
+<p>This is ourhome page</p>
+
+<%= link_to "Submit File", phone_new_path %>

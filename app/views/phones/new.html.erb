@@ -1,0 +1,7 @@
+<h1>Submit a File</h1>
+
+<%= form_tag 'create', :multipart => true do %>
+  <%= file_field_tag 'phone' %>
+  <%= submit_tag "Send Attachment" %>
+<% end %>
+
